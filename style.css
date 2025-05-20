@@ -1,4 +1,48 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Sans-Serif';
+
+}
+.hero{
+    width:100vw;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding:2rem; */
+    /* box-sizing: border-box; */
+ 
+}
+.heading{
+    max-width: 85vw;
+    margin-bottom: 0;
+}
+.heading>h1{
+
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+.Seperator{
+    display: block;
+    /* width:80vw; */
+    margin-block: 5vh ;
+    
+}
+.elem{
+    width: 85vw;
+    margin-bottom: 5vh;
+}
+.elem>img{
+    border-radius: 1rem;
+    width:150px;
+}
+.elem h2{
+    font-size:20px;
+    font-weight: 600;
+}
+.elem >.description > p{
+    font-weight: 500;
 }
